@@ -1,0 +1,21 @@
+{
+    "name": "esendex/client",
+    "description": "Provides a friendly wrapper around the Esendex SDK",
+    "require": {
+        "esendex/sdk": "1.0.*",
+        "mnapoli/php-di": "~4.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "4.3.*"
+    },
+    "license": "BSD-3-Clause",
+    "authors": [
+        {
+            "name": "Esendex Support",
+            "email": "support@esendex.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": { "Esendex\\Client\\": "src/" }
+    }
+}
